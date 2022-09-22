@@ -60,15 +60,15 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "最最最可爱的老婆",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oJ3md6bKSBdAdF4zG4jGI8vlgglY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "4Fn2ZEr-8pIsgYauiWXHIyylmQ8_cOJ5h5kRztwI_3Y",
       // 所在省份
-      province: "广东",
+      province: "河南",
       // 所在城市
-      city: "肇庆",
+      city: "驻马店",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -97,14 +97,17 @@ export const USER_CONFIG = {
     {
       name: "最最最亲爱的老婆",
       id: "oJ3md6bKSBdAdF4zG4jGI8vlgglY",
-      useTemplateId: "hohgR3BkTyO6vboiB74Y7Qd9aw5I4Zw8pGGmknEGTN4",
+      useTemplateId: "4Fn2ZEr-8pIsgYauiWXHIyylmQ8_cOJ5h5kRztwI_3Y",
       province: "河南",
       city: "驻马店",
       horoscopeDate: '08-18',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [{"type": "*生日", "name": "最最最亲爱的老婆", "year": "2003", "date": "08-18"},
+        {"type": "节日", "name": "纪念日", "year": "2022", "date": "02-19"},
+        {"type": "生日", "name": "最亲爱的老婆", "year": "2003", "date": "09-13"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-13"}],
+      customizedDateList: [{"keyword": "love_day", date: "2022-2-19"},]
     },
     {
       name: "老婆2",
